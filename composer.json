@@ -1,0 +1,22 @@
+{
+    "name": "abbas/crud_module",
+    "description": "a custom Laravel module for product manipulation",
+    "autoload": {
+        "psr-4": {
+            "Abbas\\CrudModule\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sayed Abbas"
+        }
+    ],
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Abbas\\CrudModule\\PackageServiceProvider"
+			]
+		}
+	},
+    "require": {}
+}
